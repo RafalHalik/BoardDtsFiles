@@ -1,0 +1,29 @@
+#
+# Copyright 2021,2024 NXP
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+identifier: c4_display
+name: VEETHREE C4 DISPLAY
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 256
+flash: 16384
+supported:
+  - counter
+  - can
+  - dma
+  - gpio
+  - hwinfo
+  - i2c
+  - netif:eth
+  - pwm
+  - spi
+  - usb_device
+  - watchdog
+vendor: nxp

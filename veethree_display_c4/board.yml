@@ -1,0 +1,5 @@
+board:
+  name: c4_display
+  vendor: nxp
+  socs:
+    - name: mimxrt1166
